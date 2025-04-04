@@ -1,0 +1,180 @@
+h1 {
+    color: blue;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cde4d3;
+    color: #131212;
+}
+
+.logo a {
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2007df;
+}
+
+.portfolio {
+    padding: 4rem 0;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color : #190ae7;
+    
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2a13fa;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1c09e9;
+}
+
+.about h2,
+.portfolio h2,
+.skills h2,
+.contact h2,
+.Certificate h2 {
+    color: blue; 
+}
+
+.button {
+    background-color: #07ef26;
+    color: #080808;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0f8440;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #360f9a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+
+
+.Certificate h2 {
+    font-size: 2rem;
+    color: #1a1a1d;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Fixed alignment property */
+}
+.navbar-nav{
+    margin-left: 600px;
+}
+.navbar-nav li {
+    margin-right: 25px;
+
+
+}
+.image {
+    width: 50%;
+    max-width: 25%;
+    border-radius: 50%; 
+    margin: 20px auto; 
+
+    box-shadow: 0 4px 8px rgba(16, 20, 205, 0.2); 
+}
+
+.resume {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-bottom: 3rem; 
+}
+
+.resume h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: blue; 
+}
+
+.resume p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.custom-navbar-margin {
+    margin: 20px 0; 
+}
+
+footer {
+    background-color: #f5e7e7; 
+    color: #1e1d1d; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+footer p {
+    margin: 0; 
+    font-size: 0.9rem; 
+}
+
+footer .social-links a {
+    color: #0c0c0c; /* Fixed comment syntax */
+    text-decoration: none; 
+    margin: 0 10px; 
+    font-size: 1rem; 
+}
+
+footer .social-links a:hover {
+    color: #0e0e0e; 
+}
+
+footer .contact-info {
+    margin: 10px 0; 
+    font-size: 0.9rem; 
+    color: #1e1d1d; 
+}
+
